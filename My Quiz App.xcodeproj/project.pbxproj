@@ -12,6 +12,7 @@
 		F20249131E8DC759006A37FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20249111E8DC759006A37FC /* Main.storyboard */; };
 		F20249151E8DC759006A37FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20249141E8DC759006A37FC /* Assets.xcassets */; };
 		F20249181E8DC759006A37FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20249161E8DC759006A37FC /* LaunchScreen.storyboard */; };
+		F20249201E8DC784006A37FC /* questionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202491F1E8DC784006A37FC /* questionPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F20249141E8DC759006A37FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20249171E8DC759006A37FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20249191E8DC759006A37FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F202491F1E8DC784006A37FC /* questionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F202490D1E8DC759006A37FC /* AppDelegate.swift */,
+				F202491F1E8DC784006A37FC /* questionPicker.swift */,
 				F202490F1E8DC759006A37FC /* ViewController.swift */,
 				F20249111E8DC759006A37FC /* Main.storyboard */,
 				F20249141E8DC759006A37FC /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				F20249101E8DC759006A37FC /* ViewController.swift in Sources */,
 				F202490E1E8DC759006A37FC /* AppDelegate.swift in Sources */,
+				F20249201E8DC784006A37FC /* questionPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
